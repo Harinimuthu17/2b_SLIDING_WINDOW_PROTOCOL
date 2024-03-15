@@ -13,6 +13,7 @@ To write a python program to perform implementation of sliding window protocol
 ## PROGRAM:
 
 ### client:
+
 ```
 import socket
 
@@ -38,8 +39,10 @@ while start < size:
     start += window_size
 
 c.close()
+
 ```
 ### Server:
+
 ```
 import socket
 
@@ -56,6 +59,7 @@ while True:
     s.send("Acknowledgement received from the server".encode())
 
 s.close()
+
 ```
 
 
