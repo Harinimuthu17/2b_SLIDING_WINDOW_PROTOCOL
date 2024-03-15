@@ -1,4 +1,4 @@
-## SHREE LEKHA.S 212223110052
+## M.HARINI 212222240035
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
 ## AIM:
 To write a python program to perform implementation of sliding window protocol
@@ -9,7 +9,9 @@ To write a python program to perform implementation of sliding window protocol
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
+   
 ## PROGRAM:
+
 ### client:
 ```
 import socket
@@ -55,11 +57,15 @@ while True:
 
 s.close()
 ```
-### PROGRAM:
-![Screenshot 2024-03-10 191608](https://github.com/SHREELEKHAS/2b_SLIDING_WINDOW_PROTOCOL/assets/149768910/252f1970-7a97-469c-8b6b-8cda6e4fd069)
 
-## OUPUT:
-![Screenshot 2024-03-10 191718](https://github.com/SHREELEKHAS/2b_SLIDING_WINDOW_PROTOCOL/assets/149768910/b7d1149a-44d8-4828-8afb-f6ace689f85a)
+
+## PROGRAM:
+
+![image](https://github.com/Harinimuthu17/2b_SLIDING_WINDOW_PROTOCOL/assets/130278614/867a1a5d-0d24-45af-8e26-8883c9ae2136)
+
+## OUTPUT:
+
+![image](https://github.com/Harinimuthu17/2b_SLIDING_WINDOW_PROTOCOL/assets/130278614/9b7cee08-1988-41c1-b8a8-66d7dbd6b72b)
 
 ## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed
